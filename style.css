@@ -1,0 +1,12 @@
+html::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background-color: blueviolet;
+    z-index: -1;
+}
+
+.navbar{
+    color: white;
+}
