@@ -9,22 +9,24 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-
     <div class="container">
-        <nav class="navbar navbar-dark>
-            <a class="navbar-brand">Minha Empresa</a>
+        <nav class="navbar navbar-dark mt-2">
+            <a class="navbar-brand">
+              <span class="material-icons">
+                house
+              </span>
+              Minha Empresa
+            </a>
             <form class="form-inline">
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Adicionar +</button>
             </form>
         </nav>
     </div>
 
-    <div class="container">
-        <table class="table shadow bg-white rounded">
+    <div class="container shadow bg-white rounded gap-2 mt-5 p-3">
+        <table class="table">
             <thead>
-                <tr>
-                    <th scope="col"><h3>Lista de Funcionários</h3></th>
-                <tr>
+                <h2 class="p-3">Lista de funcionários</h2>
                     <th scope="col">ID</th>
                     <th scope="col">Nome</th>
                     <th scope="col">Função</th>
@@ -37,7 +39,6 @@
             </tbody>
         </table>
   </div>
-
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -97,9 +98,12 @@
               <span class="material-icons">
                 edit
               </span>
-              Editar
               </button>
-            <button type="button" class="btn btn-danger">Excluir</button>
+            <button type="button" class="btn btn-danger">
+            <span class="material-icons">
+                delete
+              </span>
+            </button>
         </tr>
         `
       })

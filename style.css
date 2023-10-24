@@ -10,3 +10,7 @@ html::before{
 .navbar{
     color: white;
 }
+
+.navbar-brand{
+    font-size: 24px;
+}
